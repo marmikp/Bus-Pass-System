@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Bus Pass</string>
+    <string name="url">http://192.168.225.56/Bus%20Pass/</string>
+</resources>

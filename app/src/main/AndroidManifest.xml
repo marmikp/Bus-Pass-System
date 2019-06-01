@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.blackhackweb.marmik.buspass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bus"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bus"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Logedin" />
+        <activity android:name=".SignupClass" />
+        <activity android:name=".Application" />
+        <activity android:name=".ApplicationDate" />
+        <activity android:name=".Summary" />
+        <activity android:name=".FacultyLogedin" />
+        <activity android:name=".Approve" />
+        <activity android:name=".Approved" />
+        <activity android:name=".PassDetails" />
+        <activity android:name=".AdminLogedin" />
+        <activity android:name=".AdminApproved" />
+        <activity android:name=".UploadActivity"></activity>
+    </application>
+
+</manifest>
